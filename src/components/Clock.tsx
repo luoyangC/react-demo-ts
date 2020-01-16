@@ -10,7 +10,7 @@ const Clock = () => {
     return () => {
       clearInterval(timer);
     };
-  });
+  }, []);
   return (
     <div>
       <h1>Hello Word</h1>
